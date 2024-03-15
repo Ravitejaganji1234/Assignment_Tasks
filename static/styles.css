@@ -1,0 +1,22 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: aquamarine;
+}
+form {
+    margin: 50px auto;
+    width: 300px;
+}
+input, button {
+    display: block;
+    margin-bottom: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
