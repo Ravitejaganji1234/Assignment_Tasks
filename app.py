@@ -25,7 +25,7 @@ def submit_form():
     cursor.execute("INSERT INTO users (name, email, age, dob) VALUES (%s, %s, %s, %s)", (name, email, age, dob))
     db.commit()
     return redirect('/users')
-
+#demo
 @app.route('/users')
 def display_users():
     cursor.execute("SELECT * FROM users")
